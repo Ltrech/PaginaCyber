@@ -40,19 +40,19 @@ header {
     right: 0;
 }
 
-/* Link estilo */
+
 header a {
-    color: white; /* Texto blanco por defecto */
-    text-decoration: none; /* Sin subrayado */
+    color: white; 
+    text-decoration: none; 
     padding: 10px;
-    transition: color 0.3s ease; /* Transición suave para el cambio de color */
+    transition: color 0.3s ease; 
 }
 
 header a:hover {
-    color: yellow; /* Texto amarillo al pasar el ratón */
+    color: yellow; 
 }
 
-/* Otros estilos */
+
 .container {
     border: solid 1px rgba(255, 255, 255, 0.2);
 }

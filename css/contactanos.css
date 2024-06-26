@@ -97,14 +97,14 @@ button[type="submit"]:hover {
     color: #9e9797;
 }
 
-/* Añade esta clase para el contenedor del botón */
+
 .button-container {
     display: flex;
     justify-content: center;
     margin-top: 20px;
 }
 
-/* Media Queries for Responsive Design */
+
 @media (max-width: 765px) {
     .container {
         width: 90%;

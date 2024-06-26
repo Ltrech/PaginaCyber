@@ -8,12 +8,12 @@ body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin: 0;
     width: 100%;
-    min-height: 100vh; /* Ajustar a la altura mínima de la vista */
+    min-height: 100vh; 
     background: #8E0E00;
     background: -webkit-linear-gradient(to right, #1F1C18, rgba(0, 0, 0, 0.6)), url(../img/impresiones.jpg);
     background: linear-gradient(to right, #1F1C18, rgba(0, 0, 0, 0.6)), url(../img/impresiones.jpg);
     background-size: cover;
-    background-position: center; /* Centrar la imagen de fondo */
+    background-position: center; 
     background-attachment: fixed;
     position: relative;
     padding: 20px;
@@ -37,7 +37,7 @@ header {
 
 ol {
     list-style: none;
-    margin-bottom: 20px; /* Añadir un margen inferior */
+    margin-bottom: 20px; 
 }
 
 h1 {
@@ -45,30 +45,30 @@ h1 {
     text-shadow: 2px 2px 2px black, 0 0 25px blue, 0 0 5px blue;
     text-align: center;
     margin-bottom: 80px;
-    font-size: 60px; /* Tamaño mayor para h1 */
+    font-size: 60px; 
 }
 
 li {
     color: white;
     font-size: 40px;
-    line-height: 1.5; /* Incrementar el interlineado */
-    transition: color 0.3s ease, transform 0.3s ease; /* Agregar transición para hover */
+    line-height: 1.5; 
+    transition: color 0.3s ease, transform 0.3s ease; 
 }
 
 li:hover {
-    color: #00BFFF; /* Cambiar color en hover */
-    transform: scale(1.1); /* Aumentar tamaño en hover */
+    color: #00BFFF; 
+    transform: scale(1.1); 
 }
 
 a.button-link {
     display: inline-block;
     padding: 10px 20px;
-    font-size: 20px; /* Incrementar el tamaño de fuente */
-    color: white; /* Cambiar color de texto a blanco */
+    font-size: 20px; 
+    color: white; 
     background-color: transparent;
     text-align: center;
     text-decoration: none;
-    border: 2px solid white; /* Añadir un borde blanco */
+    border: 2px solid white; 
     border-radius: 4px;
     margin-top: 10px;
     transition: background-color 0.3s ease, color 0.3s ease;
@@ -76,7 +76,7 @@ a.button-link {
 
 a.button-link:hover {
     background-color: white;
-    color: #1F1C18; /* Cambiar el color del texto en el hover */
+    color: #1F1C18; 
 }
 
 .titulo-final {
@@ -86,9 +86,9 @@ a.button-link:hover {
     color: #9e9797;
 }
 
-/* Media Queries para Responsividad */
 
-/* Breakpoint 765px */
+
+
 @media (max-width: 765px) {
     h1 {
         font-size: 50px;
@@ -107,7 +107,7 @@ a.button-link:hover {
     }
 }
 
-/* Breakpoint 576px */
+
 @media (max-width: 576px) {
     h1 {
         font-size: 40px;
