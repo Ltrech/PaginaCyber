@@ -1,0 +1,157 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background: -webkit-linear-gradient(to right, #1F1C18, hwb(6 0% 44% / 0.452)), url(../img/reparacion-de-computadoras.jpg);
+    background: linear-gradient(to right, #1F1C18, hwb(6 0% 44% / 0.452)), url(../img/reparacion-de-computadoras.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+p {
+    font-size: 24px;
+    font-weight: bold;
+    color: #cc0000;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button[type="submit"] {
+    background-color: #cc0000;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #a30000;
+}
+
+.button-link {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #333;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+
+.button-link:hover {
+    background-color: #555;
+}
+
+.contenedor-footer {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #ccc;
+}
+
+.titulo-final {
+    text-align: center;
+    font-size: 24px;
+    margin: 20px 0 0 0;
+    color: #9e9797;
+}
+
+/* Añade esta clase para el contenedor del botón */
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+/* Media Queries for Responsive Design */
+@media (max-width: 765px) {
+    .container {
+        width: 90%;
+        padding: 15px;
+    }
+
+    p {
+        font-size: 20px;
+    }
+
+    button[type="submit"],
+    .button-link {
+        padding: 10px 15px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 576px) {
+    .container {
+        width: 100%;
+        padding: 10px;
+    }
+
+    p {
+        font-size: 18px;
+    }
+
+    label {
+        font-size: 14px;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    textarea {
+        padding: 8px;
+        font-size: 14px;
+    }
+
+    button[type="submit"],
+    .button-link {
+        padding: 8px 10px;
+        font-size: 12px;
+    }
+
+    .contenedor-footer {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
